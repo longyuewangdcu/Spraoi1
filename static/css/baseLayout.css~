@@ -1,0 +1,184 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  font-family: "RobotoDraft","Roboto",sans-serif;
+}
+a{
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover{
+  color: #23527c;
+  text-decoration: underline;
+}
+a.topbarLink{
+    color: white;
+    text-decoration: none;
+}
+a.topbarLink:hover{
+    color: white;
+    text-decoration: underline;
+}
+.errorWrapper{
+    display: block;
+    margin: 0 10% 0 10%;
+}
+.error{
+    font-size: 14px;
+    padding: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.error.bg-warning{
+    background-color: #fcf8e3;
+}
+.error.bg-success{
+    background-color: #dff0d8;
+}
+.error.bg-primary{
+    background-color: #337ab7;
+}
+.error.bg-info{ 
+    background-color: #d9edf7;
+}
+.error.bg-danger{
+    background-color: #ECA8A8;
+}
+.footer{
+    display: block;
+    margin-top: 100px;
+    height: 200px;
+}
+
+.navbar {
+  min-height: :32px !important;
+
+}
+
+.navbar-default {
+  background-color: #6686d4;
+  border-color: #8996c5;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+  padding: 0px 0px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #e8e8e8;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  padding-top: 30px !important;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #e8e8e8;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #e8e8e8;
+  background-color: #8996c5;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #e8e8e8;
+  background-color: #8996c5;
+}
+.navbar-default .navbar-toggle {
+  border-color: #8996c5;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #8996c5;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #e8e8e8;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #e8e8e8;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #e8e8e8;
+    background-color: #8996c5;
+  }
+}
+
+.searchBarWrapper{
+  display: inline-block;
+  margin: 0;
+  margin-left: 100px;
+}
+
+.input-group {
+  padding-left: 100px;
+  padding-top: 5px;
+}
+
+.input-group .searchInput {
+  font-size: 18px;
+  margin: 0;
+  border: 0;
+  width: 400px;
+}
+
+#spraoiHeader {
+  background-color: #14af97;
+  height: 80px;
+  border-width: thick;
+  border-color: #ffffff;
+}
+
+#spraoiLogoWhite {
+  margin: 20px 0 0 50px;
+}
+
+#spraoiLogo {
+  margin: 200px auto 50px;
+}
+
+#btnLogin {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  background: #10d12d;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  margin-left: 330px;
+}
+
+#btnLogin:hover {
+  background: #38a103;
+  text-decoration: none;
+}
+
+.spraoiBasePanel {
+  background-color: #d2d4d2;
+  height: 100%;
+}
+
+.loginField {
+  margin: 20px 0;
+  width: 450px;
+  height: 50px;
+  font-family: Montserrat;
+  font-size: 20px;
+  padding: 10px;
+}
